@@ -50,7 +50,7 @@
       ].join(String.fromCharCode(10));
 
       const mailto =
-        'mailto:info@kimba-africa.co.za' +
+        'mailto:info@kimbajourneys.com' +
         '?subject=' + encodeURIComponent('Journey enquiry from ' + name) +
         '&body=' + encodeURIComponent(body);
 

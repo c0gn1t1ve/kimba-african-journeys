@@ -777,9 +777,26 @@ p { margin: 0 0 1.1em; }
 }
 .footer-copy {
   text-align: center;
-  padding: 0 0 1.75rem;
+  padding: 0 0 0.45rem;
   font-size: 0.8rem;
   color: rgba(245,239,227,0.45);
+}
+.footer-credit {
+  text-align: center;
+  padding: 0 1.5rem 1.75rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: rgba(245,239,227,0.38);
+}
+.footer-credit a {
+  color: rgba(245,239,227,0.5);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-color: rgba(196,163,90,0.45);
+}
+.footer-credit a:hover {
+  color: var(--gold-light);
+  text-decoration-color: var(--gold-light);
 }
 
 /* Utilities */
